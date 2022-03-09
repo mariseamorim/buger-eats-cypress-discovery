@@ -1,0 +1,17 @@
+{
+  "name": "cypress-discovery",
+  "version": "1.0.0",
+  "description": "Demo de Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Marise Amorim",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^5.5.3",
+    "gerador-validador-cpf": "^5.0.2"
+  }
+}
