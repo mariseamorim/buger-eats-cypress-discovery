@@ -36,7 +36,7 @@ describe("Signup", () => {
     signup.go();
     signup.fillForm(deliver);
     signup.submit();
-    signup.alertMessageShoulBe("Oops! CPF inválidu");
+    signup.alertMessageShoulBe("Oops! CPF inválido");
   });
   it("Incorrect email", function () {
     var deliver = new signupFactory.deliver();
